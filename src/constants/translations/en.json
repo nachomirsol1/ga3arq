@@ -1,0 +1,265 @@
+{
+	"header": {
+		"logo": "",
+		"projects": "Projects",
+		"about": "About",
+		"studio": "Studio",
+		"contact": "Contact",
+		"project": "Project"
+	},
+	"about": {
+		"title": "About us",
+		"descriptions": [
+			"<strong> GrupoA3Arquitectos</strong> is a young brand with extensive experience in the architecture, design and construction sector. Our main objective is to seek excellence in our work, in the image of our projects and in the quality of their finishes.",
+			"The studio is made up of a <strong> multidisciplinary team of professionals </strong> who combine experience and dynamism under the premises of innovation, creativity, professional rigor and customer service. This work physiognomy has allowed us to spread throughout the entire Spanish territory and part of Europe, operating from our headquarters in Valencia, travel is not a problem for us, our network of highly qualified collaborators allows us to maintain quality standards in anywhere and in any project."
+		],
+		"team": {
+			"title": "Team",
+			"persons": [
+				{
+					"name": "Miguel Angel Puchades",
+					"role": "Director Architect",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/miguel_angel_sm3emv.jpg",
+					"description": ""
+				},
+				{
+					"name": "María Inmaculada Esparza",
+					"role": "Architect | Architecture department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/Maria_lypcgh.jpg",
+					"description": ""
+				},
+				{
+					"name": "Héctor Tadeo",
+					"role": "Architect | Architecture department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/hector_qt6bqc.jpg",
+					"description": ""
+				},
+				{
+					"name": "Carles Andreu Montañana",
+					"role": "Consultant | Operations department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/carles_n0385f.jpg",
+					"description": ""
+				},
+				{
+					"name": "Nacho Miralles",
+					"role": "Architect | Innovation department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/nacho_mthk7w.jpg",
+					"description": ""
+				},
+				{
+					"name": "Marina Martínez",
+					"role": "Architect | Architecture department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158437/About/marina_teu61a.jpg",
+					"description": ""
+				},
+				{
+					"name": "Jorge Rodríguez",
+					"role": "Architect | Architecture department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158452/About/jorge_d0hrfp.jpg",
+					"description": ""
+				},
+				{
+					"name": "Inés Botello",
+					"role": "Architect | Marketing department",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158437/About/ines_wwwwmu.jpg",
+					"description": ""
+				}
+			],
+			"names": {
+				"miguel_angel": "Miguel Ángel Puchades Olmos",
+				"maria_inmaculada": "Maria Inmaculada Esparza",
+				"hector": "Héctor Tadeo",
+				"carles": "Carles Andreu Montanyana",
+				"nacho": "Nacho Miralles Soler",
+				"marina": "Marina Martínez",
+				"jorge": "Jorge Rodríguez",
+				"ines": "Inés Botello"
+			}
+		},
+		"collaborators": {
+			"title": "Partners",
+			"departments": [
+				{
+					"type": "Architecture department",
+					"persons": [
+						{
+							"name": "ALXN Arquitectes",
+							"role": "Architects",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Gabriel Sanjuán",
+							"role": "Architect",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Alcalas Arin",
+							"role": "Architect",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "Building eng. Department",
+					"persons": [
+						{
+							"name": "Paul J. Roch",
+							"role": "Building engineer",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "José Argaya",
+							"role": "Building engineer",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "Engineering Department",
+					"persons": [
+						{
+							"name": "Beltrán Ingenieros",
+							"role": "Agri-food",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Integra STI",
+							"role": "Facilities",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Moncayo Ingenieros",
+							"role": "Acoustic",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Troyano Ing. Est.",
+							"role": "Structures",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "BIM",
+					"persons": [
+						{
+							"name": "Hernez Design",
+							"role": "Modeling",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Aereal-Air&Emotion",
+							"role": "3D Scanner",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Making Mav Arquitectura",
+							"role": "Building",
+							"image": "",
+							"description": ""
+						}
+					]
+				}
+			],
+			"persons": [
+				{
+					"name": "ALXN Arquitectes",
+					"role": "Architect | Architecture department",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Gabriel Sanjuán",
+					"role": "Architect | Architecture department",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Paul J. Roch",
+					"role": "Architect | Architecture department",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "José Argaya",
+					"role": "Architect | Architecture department",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Nacho Miralles",
+					"role": "Software Engineer | Architect",
+					"image": "",
+					"description": ""
+				}
+			],
+			"names": {
+				"alxn": "ALXN Arquitectes",
+				"gabriel": " Gabriel Sanjuán"
+			}
+		}
+	},
+	"contact": {
+		"title": "Contact us",
+		"subtitle": "We are at your disposal. For any questions, queries or requests",
+		"description": "Call us for whatever you need, or contact us through our email or our social media. We will get in touch with you as soon as possible.",
+		"name": "Name",
+		"email": {
+			"text": "Email",
+			"value": "info@grupoa3arquitectos.es"
+		},
+		"phone": {
+			"text": "Phone",
+			"value": "96 023 69 50"
+		},
+		"address": "Calle José Soto Mico, 37, Valencia, España",
+		"mediaData": "Don't miss our jobs!",
+		"form": {
+			"textarea": "Write something here",
+			"button": "Send"
+		}
+	},
+	"projects": {
+		"architects": "Architects",
+		"location": "Location",
+		"year": "Year",
+		"type": "Type",
+		"built": "Built Area",
+		"collaborators": "Collaborators",
+		"in_progress": "In progress",
+		"types": {
+			"residential": "Residential",
+			"competition": "Competition",
+			"religious": "Religious",
+			"offices": "Offices",
+			"leisure": "Leisure",
+			"restoration": "Restoration"
+		},
+		"names": {
+			"rsm_house": "RSM House",
+			"idai_nature": "Idai Nature Offices",
+			"church_tower": "Church Rehabilitation",
+			"bgm_house": "BGM House",
+			"fpm_house": "FPM House",
+			"anr_house": "ANR House",
+			"grupo_A3_arquitectos": "GrupoA3Arquitectos Offices",
+			"torre_park": "Torres Park Leisure Center",
+			"crr_house": "CRR House",
+			"alsacargo": "Alsacargo Offices",
+			"pbm_house": "PBM House",
+			"vam_house": "VAM House",
+			"don_mendo": "Don Mendo Restaurant"
+		}
+	}
+}

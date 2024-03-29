@@ -1,0 +1,11 @@
+@import 'src/settings/index.scss';
+.logo {
+	width: 200px;
+	height: 100%;
+	img {
+		height: 75px;
+		box-sizing: border-box;
+		padding: $spacing-xs 0;
+		object-fit: cover;
+	}
+}

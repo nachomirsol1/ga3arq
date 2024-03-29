@@ -1,0 +1,37 @@
+@import 'src/settings/index.scss';
+
+.projectInfo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px dotted $color-border-gray;
+	&__section {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: $spacing-m;
+		box-sizing: border-box;
+		p:first-child {
+			margin: $spacing-m 0;
+			font-size: $font-size-l;
+		}
+		p {
+			margin: $spacing-xs 0;
+			font-size: $font-size-s;
+		}
+	}
+	&__back {
+		height: 100%;
+		border-left: 1px dotted $color-border-gray;
+
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		span {
+			transform: rotate(90deg);
+		}
+	}
+	&__back:hover {
+		background: $color-background-lightGray;
+	}
+}

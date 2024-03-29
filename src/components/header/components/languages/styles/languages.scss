@@ -1,0 +1,19 @@
+@import 'src/settings/index.scss';
+
+.languages {
+	display: flex;
+
+	.activeLang {
+		font-weight: $font-weight-bold;
+	}
+
+	span {
+		cursor: pointer;
+	}
+
+	span:first-child::after {
+		font-weight: $font-weight-regular;
+		content: '|';
+		padding: 0 $spacing-xxs;
+	}
+}

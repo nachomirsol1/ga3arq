@@ -1,0 +1,28 @@
+@import 'src/settings/index.scss';
+
+.departmentCard {
+	padding: $spacing-l;
+	border: 1px dotted #ddd;
+	background-color: $color-background-lightGray;
+	&__type {
+		color: $color-text-gray;
+		font-size: $font-size-m;
+		padding: $spacing-xs 0;
+	}
+
+	&__collaborator {
+		display: flex;
+		flex-direction: column;
+		padding: $spacing-xs $spacing-m;
+		font-size: $font-size-s;
+
+		span:first-child {
+			font-weight: $font-weight-semiBold;
+			text-transform: uppercase;
+		}
+
+		span:last-child {
+			color: $color-text-gray;
+		}
+	}
+}

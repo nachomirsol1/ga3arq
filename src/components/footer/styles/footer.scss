@@ -1,0 +1,35 @@
+@import 'src/settings/index.scss';
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 75px;
+	justify-content: center;
+	margin-top: auto;
+	padding: $spacing-m 0;
+	&__copyright {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		color: $color-text-gray;
+		padding: $spacing-s 0;
+		font-size: $font-size-xs;
+	}
+	&__media {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		span {
+			padding: 0 $spacing-xxs;
+			a {
+				color: #bbb;
+				svg {
+					path {
+						color: #bbb;
+					}
+				}
+			}
+		}
+	}
+}

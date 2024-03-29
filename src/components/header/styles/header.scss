@@ -1,0 +1,19 @@
+@import 'src/settings/index.scss';
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+	&__content {
+		width: 100%;
+		height: 75px;
+		padding: 0 $spacing-l;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		font-family: $font-main;
+		z-index: 4;
+	}
+}

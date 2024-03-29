@@ -1,0 +1,60 @@
+import { CLOUDINARY_IMG_PATH } from 'src/constants/paths';
+
+export const PROJECTS = [
+	{
+		id: 1,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809150/Vivienda_RSM/naquerabanner_ykccch.jpg`,
+		label: 'rsm_house',
+		description: 'description',
+		linkTo: '/projects/rsm_house',
+	},
+	{
+		id: 2,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809623/Oficinas_Alsacargo/4_hw3xaw.jpg`,
+		label: 'rsm_house',
+		description: 'description',
+		linkTo: '/projects/rsm_house',
+	},
+	{
+		id: 3,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809151/Vivienda_RSM/10_x0x5nc.jpg`,
+		label: 'rsm_house',
+		description: 'description',
+		linkTo: '/projects/rsm_house',
+	},
+	{
+		id: 4,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809039/Vivienda_FPM/14_a3es1h.jpg`,
+		label: 'fpm_house',
+		description: 'description',
+		linkTo: '/projects/fpm_house',
+	},
+	{
+		id: 5,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/01_yfr7cf.jpg`,
+		label: 'crr_house',
+		description: 'description',
+		linkTo: '/projects/crr_house',
+	},
+	{
+		id: 6,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809468/Oficinas_Idai_Nature/02_ispkm2.jpg`,
+		label: 'idai_nature',
+		description: 'description',
+		linkTo: '/projects/idai_nature',
+	},
+	{
+		id: 7,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639809072/Vivienda_PBM/01_hfsr8l.jpg`,
+		label: 'pbm_house',
+		description: 'description',
+		linkTo: '/projects/pbm_house',
+	},
+];

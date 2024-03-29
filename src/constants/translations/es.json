@@ -1,0 +1,271 @@
+{
+	"header": {
+		"logo": "",
+		"projects": "Proyectos",
+		"about": "Estudio",
+		"contact": "Contacto",
+		"project": "Proyecto"
+	},
+	"about": {
+		"title": "Sobre Nosotros",
+		"descriptions": [
+			"<strong> GrupoA3Arquitectos</strong> es un estudio de arquitectura ubicado en Valencia, con una trayectoria profesional de más de 13 años a lo largo del territorio español, parte de Europa y Canadá, realizando proyectos para clientes particulares, empresas privadas y entidades públicas, además de colaboraciones en entornos BIM para estudios de arquitectura internacionales.",
+			"Nuestro principal objetivo es buscar la excelencia en nuestro trabajo, bajo las premisas de innovación, creatividad, rigor profesional y servicio al cliente",
+			"En cada nuevo proyecto que abordamos desde el estudio, buscamos captar la esencia de lo que quiere el cliente y mejorarlo. Para ello, concebimos cada proyecto de la manera integral, con una interlocución fluída con el cliente y haciéndole partícipe de las decisiones con el objetivo de poner la arquitectura al servicio del cliente y buscar su satisfacción plena."
+		],
+		"team": {
+			"title": "Equipo",
+			"persons": [
+				{
+					"name": "Miguel Angel Puchades",
+					"role": "Arquitecto director",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/miguel_angel_sm3emv.jpg",
+					"description": ""
+				},
+				{
+					"name": "María Inmaculada Esparza",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/Maria_lypcgh.jpg",
+					"description": ""
+				},
+				{
+					"name": "Héctor Tadeo",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/hector_qt6bqc.jpg",
+					"description": ""
+				},
+				{
+					"name": "Carles Andreu Montañana",
+					"role": "Consultor | Dpto. de Operaciones",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/carles_n0385f.jpg",
+					"description": ""
+				},
+				{
+					"name": "Nacho Miralles",
+					"role": "Arquitecto | Dpto. de Innovación",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1642590816/About/nacho_mthk7w.jpg",
+					"description": ""
+				},
+				{
+					"name": "Marina Martínez",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158437/About/marina_teu61a.jpg",
+					"description": ""
+				},
+				{
+					"name": "Jorge Rodríguez",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158452/About/jorge_d0hrfp.jpg",
+					"description": ""
+				},
+				{
+					"name": "Inés Botello",
+					"role": "Arquitecto | Dpto. de Comunicación",
+					"image": "https://res.cloudinary.com/nachal/image/upload/v1652158437/About/ines_wwwwmu.jpg",
+					"description": ""
+				}
+			],
+			"names": {
+				"miguel_angel": "Miguel Ángel Puchades Olmos",
+				"maria_inmaculada": "Maria Inmaculada Esparza",
+				"hector": "Héctor Tadeo",
+				"carles": "Carles Andreu Montanyana",
+				"nacho": "Nacho Miralles Soler",
+				"marina": "Marina Martínez",
+				"jorge": "Jorge Rodríguez",
+				"ines": "Inés Botello"
+			}
+		},
+		"collaborators": {
+			"title": "Colaboradores",
+			"departments": [
+				{
+					"type": "Dpto. de Arquitectura",
+					"persons": [
+						{
+							"name": "ALXN Arquitectes",
+							"role": "Arquitectos",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Gabriel Sanjuán",
+							"role": "Arquitectos",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Alcalás Arin",
+							"role": "Arquitectos",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "Dirección de obra",
+					"persons": [
+						{
+							"name": "Paul J. Roch",
+							"role": "Arquitecto técnico",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "José Argaya",
+							"role": "Arquitecto técnico",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "Ingeniería",
+					"persons": [
+						{
+							"name": "Beltrán Ingenieros",
+							"role": "Agroalimentaria",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Integra STI",
+							"role": "Instalaciones",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Moncayo Ingenieros",
+							"role": "Acústica",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Troyano Ing. Est.",
+							"role": "Estructuras",
+							"image": "",
+							"description": ""
+						}
+					]
+				},
+				{
+					"type": "BIM",
+					"persons": [
+						{
+							"name": "Hernez Design",
+							"role": "Modelado y gestión",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Aereal-Air&Emotion",
+							"role": "Scanner 3d",
+							"image": "",
+							"description": ""
+						},
+						{
+							"name": "Making Mav Arquitectura",
+							"role": "Construcción",
+							"image": "",
+							"description": ""
+						}
+					]
+				}
+			],
+			"persons": [
+				{
+					"name": "ALXN Arquitectes",
+					"role": "Arquitectos | Dpto. de Arquitectura",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Gabriel Sanjuán",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Paul J. Roch",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "José Argaya",
+					"role": "Arquitecto | Dpto. de Arquitectura",
+					"image": "",
+					"description": ""
+				},
+				{
+					"name": "Nacho Miralles",
+					"role": "Software Engineer | Arquitecto",
+					"image": "",
+					"description": ""
+				}
+			],
+			"names": {
+				"alxn": "ALXN Arquitectes",
+				"gabriel": " Gabriel Sanjuán"
+			}
+		},
+		"names": {
+			"miguel_angel": "Miguel Ángel Puchades Olmos",
+			"maria_inmaculada": "Maria Inmaculada Esparza",
+			"hector": "Héctor Tadeo",
+			"carles": "Carles Andreu Montanyana"
+		}
+	},
+	"contact": {
+		"title": "Contacta con nosotros",
+		"subtitle": "Estamos a tu disposición. Para cualquier duda, consulta o solicitud",
+		"description": "Llámanos para lo que necesites, o bien contacta con nosotros a través de nuestro correo electrónico o de nuestras redes sociales. Nos pondremos en contacto contigo con la mayor brevedad posible.",
+		"name": "Nombre",
+		"email": {
+			"text": "Email",
+			"value": "info@grupoa3arquitectos.es"
+		},
+		"phone": {
+			"text": "Teléfono",
+			"value": "96 023 69 50"
+		},
+		"address": "Calle José Soto Mico, 37, Valencia, España",
+		"mediaData": "Síguenos!",
+		"form": {
+			"textarea": "Escríbenos tu mensaje",
+			"button": "Enviar"
+		}
+	},
+	"projects": {
+		"architects": "Arquitectos",
+		"location": "Localización",
+		"year": "Año",
+		"type": "Tipología",
+		"built": "Superficie",
+		"collaborators": "Colaboradores",
+		"in_progress": "En proyecto",
+		"types": {
+			"residential": "Residencial",
+			"competition": "Concurso",
+			"religious": "Religioso",
+			"offices": "Oficinas",
+			"leisure": "Ocio",
+			"restoration": "Restauración"
+		},
+		"names": {
+			"rsm_house": "Vivienda RSM",
+			"idai_nature": "Oficinas Idai Nature",
+			"church_tower": "Rehabilitación Iglesia",
+			"bgm_house": "Vivienda BGM",
+			"fpm_house": "Vivienda FPM",
+			"anr_house": "Vivienda ANR",
+			"grupo_A3_arquitectos": "Oficinas GrupoA3Arquitectos",
+			"torre_park": "Centro de Ocio Torres Park",
+			"crr_house": "Vivienda CRR",
+			"alsacargo": "Oficinas Alsacargo",
+			"pbm_house": "Vivienda PBM",
+			"vam_house": "Vivienda VAM",
+			"don_mendo": "Restaurante Don Mendo"
+		}
+	}
+}

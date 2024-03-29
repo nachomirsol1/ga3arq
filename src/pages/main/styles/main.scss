@@ -1,0 +1,75 @@
+@import 'src/settings/index.scss';
+
+@keyframes banner {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(1.15);
+	}
+}
+
+.main-page {
+	height: calc(100vh);
+	width: 100%;
+	background-color: #f7f7f7;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	overflow: hidden;
+	&__overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: $color-black;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		opacity: 0.4;
+	}
+	&__banner-image {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		z-index: 1;
+		animation: banner 10s ease 1;
+		-webkit-animation: banner 10s ease 1;
+	}
+	&__banner-logo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		z-index: 5;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+
+		span {
+			margin: $spacing-s 0;
+			font-family: $font-montserrat;
+		}
+		.logo {
+			width: 250px;
+			@include xs {
+				width: 170px;
+			}
+		}
+	}
+	&__banner-prevArrow,
+	&__banner-nextArrow {
+		width: 64px;
+		height: 64px;
+		position: absolute;
+		z-index: 6;
+		cursor: pointer;
+	}
+	&__banner-nextArrow {
+		right: 0px;
+	}
+	&__banner-prevArrow {
+		left: 0px;
+	}
+}

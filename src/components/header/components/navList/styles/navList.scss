@@ -1,0 +1,57 @@
+@import 'src/settings/index.scss';
+
+.navlist {
+	&.responsive {
+		@include xs {
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			height: 100%;
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: $spacing-xl;
+		}
+	}
+
+	&__icon {
+		cursor: pointer;
+		@include xs {
+			position: relative;
+			left: 100%;
+		}
+		svg {
+			width: 20px !important;
+			height: 20px !important;
+		}
+	}
+
+	&__items {
+		display: flex;
+		&.responsive {
+			@include xs {
+				flex-direction: column;
+			}
+		}
+
+		&-item {
+			@include navbarText;
+			list-style-type: none;
+			@include xs {
+				padding: $spacing-m 0;
+			}
+			a {
+				color: $color-text-main;
+				text-decoration: none;
+			}
+		}
+
+		.active {
+			@include activeNavbarText;
+			list-style-type: none;
+			@include xs {
+				padding: $spacing-m 0;
+			}
+		}
+	}
+}

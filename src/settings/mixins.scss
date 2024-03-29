@@ -1,0 +1,88 @@
+@import './tokens';
+
+@mixin xs {
+	@media (max-width: 400px) {
+		@content;
+	}
+}
+@mixin xs {
+	@media (max-width: 600px) {
+		@content;
+	}
+}
+@mixin s {
+	@media (max-width: 900px) {
+		@content;
+	}
+}
+@mixin sm {
+	@media (max-width: 1050px) {
+		@content;
+	}
+}
+@mixin m {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+@mixin ml {
+	@media (max-width: 1300px) {
+		@content;
+	}
+}
+@mixin l {
+	@media (max-width: 1400px) {
+		@content;
+	}
+}
+@mixin xl {
+	@media (max-width: 1600px) {
+		@content;
+	}
+}
+@mixin xxl {
+	@media (max-width: 1800px) {
+		@content;
+	}
+}
+
+@mixin xxxl {
+	@media (max-width: 2500px) {
+		@content;
+	}
+}
+
+@mixin text {
+	font-family: $font-main;
+	font-size: $font-size-ms;
+	font-weight: $font-weight-light;
+	line-height: $line-height-regular;
+	color: $color-text-main;
+}
+
+@mixin navbarText {
+	text-transform: uppercase;
+	padding: 0 $spacing-s;
+	font-weight: $font-weight-light;
+	font-size: $font-size-s;
+}
+
+@mixin activeNavbarText {
+	text-transform: uppercase;
+	padding: 0 $spacing-s;
+	font-weight: $font-weight-semiBold;
+	font-size: $font-size-s;
+}
+
+@mixin button {
+	background: transparent;
+	box-shadow: 0px 0px 0px transparent;
+	border: 0px solid transparent;
+	text-shadow: 0px 0px 0px transparent;
+	border: 1px solid $color-border-gray;
+	margin: $spacing-xs 0;
+	padding: $spacing-xxs 0;
+	cursor: pointer;
+}
+
+
