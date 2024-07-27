@@ -259,7 +259,15 @@
 			"alsacargo": "Alsacargo Offices",
 			"pbm_house": "PBM House",
 			"vam_house": "VAM House",
-			"don_mendo": "Don Mendo Restaurant"
+			"don_mendo": "Don Mendo Restaurant",
+			"ebm_house": "EBM House",
+			"stadler_training_center": "Stadler Training Center",
+			"restaurant_hotel": "Restaurant Hotel",
+			"campus_taronjers_contest": "Campus Taronjers Contest",
+			"nules_offices": "Nules Offices",
+			"perellonet": "Perellonet",
+			"albalat_cityhall_cantest": "Albalat City Hall Contest",
+			"mueble_valencia": "mueble_valencia"
 		}
 	}
 }

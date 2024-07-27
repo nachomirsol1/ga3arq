@@ -265,7 +265,15 @@
 			"alsacargo": "Oficinas Alsacargo",
 			"pbm_house": "Vivienda PBM",
 			"vam_house": "Vivienda VAM",
-			"don_mendo": "Restaurante Don Mendo"
+			"don_mendo": "Restaurante Don Mendo",
+			"ebm_house": "Vivienda EBM",
+			"stadler_training_center": "Centro de formación Stadler",
+			"restaurant_hotel": "Hotel Restaurante",
+			"campus_taronjers_contest": "Concurso Campus Taronjers",
+			"nules_offices": "Oficinas Nules",
+			"perellonet": "Perellonet",
+			"albalat_cityhall_cantest": "Concurso Ayuntamiento Albalat",
+			"mueble_valencia": "mueble_valencia"
 		}
 	}
 }

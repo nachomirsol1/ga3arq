@@ -7,7 +7,7 @@ import './styles/card.scss';
 /**Hooks**/
 import { useTranslations } from '../../context/languageProvider';
 
-export const Card = ({ info }) => {
+export const Card = ({ info, ...rest }) => {
 	const [overlay, setOverlay] = useState(false);
 	const {
 		translate: { projects },
@@ -20,6 +20,7 @@ export const Card = ({ info }) => {
 			className='card'
 			onMouseEnter={() => setOverlay(true)}
 			onMouseLeave={() => setOverlay(false)}
+			{...rest}
 		>
 			<Link to={link}>
 				{overlay ? (

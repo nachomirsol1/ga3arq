@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 /** Components */
 import { Card } from 'src/components/card';
 import { ProjectInfo } from 'src/components/projectInfo';
+/** Libraries */
+import Slider from 'react-slick';
 /** Hooks */
 import { useParams } from 'react-router-dom';
 import { useTranslations } from 'src/context/languageProvider';
@@ -10,6 +12,8 @@ import { useTranslations } from 'src/context/languageProvider';
 import { PROJECTS_INFO } from '../model';
 /** Styles */
 import './styles/default.scss';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const ProjectTemplate = () => {
 	const {

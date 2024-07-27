@@ -11,6 +11,7 @@ import { OFICINAS_ALSACARGO } from './oficinas_alsacargo';
 import { IGLESIA_REHABILITACION } from './iglesia_rehabilitacion';
 import { RESTAURANTE_DONMENDO } from './restaurante_donMendo';
 import { CENTRO_OCIO_TORRESPARK } from './centro_ocio_torrepark';
+import { STADLER_TRAINING_CENTER } from './stadler_training_center';
 
 export const PROJECTS_INFO = {
 	rsm_house: {
@@ -129,5 +130,14 @@ export const PROJECTS_INFO = {
 		built: '600 m2',
 		collaborator: '',
 		images: RESTAURANTE_DONMENDO,
+	},
+	stadler_training_center: {
+		title: 'stadler_training_center',
+		location: 'Alfafar (Valencia)',
+		year: 'in_progress',
+		type: 'restoration',
+		built: '600 m2',
+		collaborator: '',
+		images: STADLER_TRAINING_CENTER,
 	},
 };
