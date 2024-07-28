@@ -1,6 +1,6 @@
-import React from 'react';
 import Slider from 'react-slick';
 import PropTypes from 'prop-types';
+import { NextArrow, PrevArrow } from '../arrows'; // Import the custom arrow components
 import './styles/imageCarousel.scss';
 
 const ImageCarousel = ({ images, initialSlide, onClose }) => {
@@ -11,8 +11,8 @@ const ImageCarousel = ({ images, initialSlide, onClose }) => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		nextArrow: <div className='slick-next'>Next</div>,
-		prevArrow: <div className='slick-prev'>Prev</div>,
+		nextArrow: <NextArrow />,
+		prevArrow: <PrevArrow />,
 	};
 
 	return (
@@ -20,13 +20,19 @@ const ImageCarousel = ({ images, initialSlide, onClose }) => {
 			<button className='closeButton' onClick={onClose}>
 				<span className='closeIcon'>×</span>
 			</button>
-			<Slider {...settings}>
-				{images.map((image, index) => (
-					<div key={index}>
-						<img src={image.imgUrl} alt={image.label} />
-					</div>
-				))}
-			</Slider>
+			<div className='polaroidWrapper'>
+				<Slider {...settings}>
+					{images.map((image, index) => (
+						<div key={index} className='imageContainer'>
+							<img
+								src={image.imgUrl}
+								alt={image.label}
+								className='carouselImage'
+							/>
+						</div>
+					))}
+				</Slider>
+			</div>
 		</div>
 	);
 };

@@ -36,42 +36,70 @@
 		}
 	}
 
-	.slick-slider {
-		width: 80vw;
-		height: 80vh;
+	.polaroidWrapper {
+		background: white;
+		padding: 30px;
+		padding-bottom: 60px; /* Add extra padding at the bottom */
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-		.slick-list {
-			height: 100%;
+		.slick-slider {
+			width: 80vw;
+			height: 70vh;
 
-			.slick-track {
+			.slick-list {
 				height: 100%;
 
-				.slick-slide {
+				.slick-track {
 					height: 100%;
+
+					.slick-slide {
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.imageContainer {
+							padding: 10px;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+
+							.carouselImage {
+								max-width: 100%;
+								max-height: 100%;
+								display: block;
+							}
+						}
+					}
+				}
+
+				.slick-dots {
+					position: absolute;
+					bottom: 10px; /* Adjust positioning */
 					display: flex;
 					justify-content: center;
-					align-items: center;
+					width: 100%;
 
-					img {
-						max-width: 100%;
-						max-height: 100%;
+					li button:before {
+						color: black;
+					}
+				}
+
+				.slick-prev,
+				.slick-next {
+					z-index: 1100;
+					color: lightgray;
+					font-size: 24px;
+
+					&:before {
+						color: lightgray;
 					}
 				}
 			}
-		}
-	}
-
-	.slick-prev,
-	.slick-next {
-		z-index: 1100;
-		color: white;
-	}
-
-	.slick-dots {
-		bottom: 10px;
-
-		li button:before {
-			color: white;
 		}
 	}
 }
