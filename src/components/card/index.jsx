@@ -1,39 +1,53 @@
 import { useState } from 'react';
-/** Libraries */
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-/** Styles */
 import './styles/card.scss';
-/**Hooks**/
 import { useTranslations } from '../../context/languageProvider';
 
-export const Card = ({ info, ...rest }) => {
+export const Card = ({ info, onImageClick, ...rest }) => {
 	const [overlay, setOverlay] = useState(false);
 	const {
 		translate: { projects },
 	} = useTranslations();
-
 	const link = info?.linkTo ?? '';
+
+	const handleClick = () => {
+		if (!link) {
+			onImageClick(info);
+		}
+	};
 
 	return (
 		<div
 			className='card'
 			onMouseEnter={() => setOverlay(true)}
 			onMouseLeave={() => setOverlay(false)}
+			onClick={handleClick}
 			{...rest}
 		>
-			<Link to={link}>
-				{overlay ? (
-					<>
-						<div className='overlay'>
-							<span>{projects.names[info?.label]}</span>
-						</div>
+			{link ? (
+				<Link to={link}>
+					{overlay ? (
+						<>
+							<div className='overlay'>
+								<span>{projects.names[info?.label]}</span>
+							</div>
+							<img src={info?.imgUrl} alt={projects.names[info?.label]} />
+						</>
+					) : (
 						<img src={info?.imgUrl} alt={projects.names[info?.label]} />
-					</>
-				) : (
+					)}
+				</Link>
+			) : overlay ? (
+				<>
+					<div className='overlay'>
+						<span>{projects.names[info?.label]}</span>
+					</div>
 					<img src={info?.imgUrl} alt={projects.names[info?.label]} />
-				)}
-			</Link>
+				</>
+			) : (
+				<img src={info?.imgUrl} alt={projects.names[info?.label]} />
+			)}
 		</div>
 	);
 };
@@ -44,4 +58,5 @@ Card.propTypes = {
 		imgUrl: PropTypes.string,
 		label: PropTypes.string,
 	}),
+	onImageClick: PropTypes.func.isRequired,
 };
