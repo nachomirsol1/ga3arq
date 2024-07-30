@@ -150,9 +150,9 @@ export const PROJECTS = [
 		id: 19,
 		path: '',
 		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902794/Perellonet/yjungvorza5tbgkircwg.jpg`,
-		label: 'perellonet',
+		label: 'perellonet_house',
 		description: 'description',
-		linkTo: '/projects/perellonet',
+		linkTo: '/projects/perellonet_house',
 	},
 	{
 		id: 20,

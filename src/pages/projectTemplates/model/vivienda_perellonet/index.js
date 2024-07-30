@@ -1,0 +1,60 @@
+import { CLOUDINARY_IMG_PATH } from 'src/constants/paths';
+
+export const VIVIENDA_PERELLONET = [
+	{
+		id: 1400,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902842/Perellonet/vyngujkkqnbmxm9gjcpd.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1401,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902833/Perellonet/rknp7fepb9wsr56wqpme.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1402,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902827/Perellonet/orqvykbhqr2xougs1rhd.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1403,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902803/Perellonet/zxnm2db5jhaa2lpxpizg.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1404,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902794/Perellonet/yjungvorza5tbgkircwg.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1405,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902793/Perellonet/tkcorkvthheh6bmi1ccr.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+	{
+		id: 1406,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721902737/Perellonet/v8l1kq9lknw4jd7prrn7.jpg`,
+		label: 'perellonet_house',
+		description: '',
+		linkTo: '',
+	},
+];

@@ -12,6 +12,9 @@ import { IGLESIA_REHABILITACION } from './iglesia_rehabilitacion';
 import { RESTAURANTE_DONMENDO } from './restaurante_donMendo';
 import { CENTRO_OCIO_TORRESPARK } from './centro_ocio_torrepark';
 import { STADLER_TRAINING_CENTER } from './stadler_training_center';
+import { CONCURSO_CAMPUS_TARONGERS } from './concurso_campus_tarongers';
+import { OFICINAS_NULES } from './oficinas_nules';
+import { VIVIENDA_PERELLONET } from './vivienda_perellonet';
 
 export const PROJECTS_INFO = {
 	rsm_house: {
@@ -139,5 +142,32 @@ export const PROJECTS_INFO = {
 		built: '600 m2',
 		collaborator: '',
 		images: STADLER_TRAINING_CENTER,
+	},
+	campus_taronjers_contest: {
+		title: 'campus_taronjers_contest',
+		location: 'UV Valencia',
+		year: 'in_progress',
+		type: 'competition',
+		built: '600 m2',
+		collaborator: '',
+		images: CONCURSO_CAMPUS_TARONGERS,
+	},
+	nules_offices: {
+		title: 'nules_offices',
+		location: 'Nules (Castellón)',
+		year: 'in_progress',
+		type: 'offices',
+		built: '600 m2',
+		collaborator: '',
+		images: OFICINAS_NULES,
+	},
+	perellonet_house: {
+		title: 'perellonet_house',
+		location: 'Perellonet (Valencia)',
+		year: 'in_progress',
+		type: 'residential',
+		built: '600 m2',
+		collaborator: '',
+		images: VIVIENDA_PERELLONET,
 	},
 };
