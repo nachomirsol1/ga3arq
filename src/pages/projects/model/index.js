@@ -170,4 +170,12 @@ export const PROJECTS = [
 		description: 'description',
 		linkTo: '/projects/mueble_valencia',
 	},
+	{
+		id: 22,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1722424027/XABEC/IMG_0793_slzkw3.jpg`,
+		label: 'xabec',
+		description: 'description',
+		linkTo: '/projects/xabec',
+	},
 ];

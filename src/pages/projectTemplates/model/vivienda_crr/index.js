@@ -4,7 +4,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 60,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/IMG_0246_nmklmd.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/01_yfr7cf.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -12,7 +12,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 61,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/12_nzkfap.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/02_e2ufbf.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -20,14 +20,15 @@ export const VIVIENDA_CRR = [
 	{
 		id: 62,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/11_kvkjcx.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/03_rnyd8z.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
 	},
 	{
 		id: 63,
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/08_o6ppqh.jpg`,
+		path: '',
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/04_tuhivl.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -35,7 +36,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 64,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/09_pa0n5p.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/IMG_0246_nmklmd.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -43,7 +44,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 65,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/05_a6vih1.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/12_nzkfap.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -51,15 +52,14 @@ export const VIVIENDA_CRR = [
 	{
 		id: 66,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/01_yfr7cf.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/11_kvkjcx.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
 	},
 	{
 		id: 67,
-		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/02_e2ufbf.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808982/Vivienda_CRR/08_o6ppqh.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -67,7 +67,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 68,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/03_rnyd8z.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/09_pa0n5p.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',
@@ -75,7 +75,7 @@ export const VIVIENDA_CRR = [
 	{
 		id: 69,
 		path: '',
-		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/04_tuhivl.jpg`,
+		imgUrl: `${CLOUDINARY_IMG_PATH}/v1639808981/Vivienda_CRR/05_a6vih1.jpg`,
 		label: 'crr_house',
 		description: '',
 		linkTo: '',

@@ -2,6 +2,7 @@ import { VIVIENDA_RSM } from './vivienda_rsm';
 import { VIVIENDA_FPM } from './vivienda_fpm';
 import { VIVIENDA_VAM } from './vivienda_vam';
 import { VIVIENDA_PBM } from './vivienda_pbm';
+import { VIVIENDA_EBM } from './vivienda_ebm';
 import { VIVIENDA_CRR } from './vivienda_crr';
 import { VIVIENDA_ANR } from './vivienda_anr';
 import { VIVIENDA_BGM } from './vivienda_bgm';
@@ -15,6 +16,7 @@ import { STADLER_TRAINING_CENTER } from './stadler_training_center';
 import { CONCURSO_CAMPUS_TARONGERS } from './concurso_campus_tarongers';
 import { OFICINAS_NULES } from './oficinas_nules';
 import { VIVIENDA_PERELLONET } from './vivienda_perellonet';
+import { XABEC } from './xabec';
 
 export const PROJECTS_INFO = {
 	rsm_house: {
@@ -136,10 +138,10 @@ export const PROJECTS_INFO = {
 	},
 	stadler_training_center: {
 		title: 'stadler_training_center',
-		location: 'Alfafar (Valencia)',
-		year: 'in_progress',
-		type: 'restoration',
-		built: '600 m2',
+		location: 'Albuixech (Valencia)',
+		year: '2023',
+		type: 'Industrial',
+		built: '-',
 		collaborator: '',
 		images: STADLER_TRAINING_CENTER,
 	},
@@ -148,26 +150,44 @@ export const PROJECTS_INFO = {
 		location: 'UV Valencia',
 		year: 'in_progress',
 		type: 'competition',
-		built: '600 m2',
+		built: '-',
 		collaborator: '',
 		images: CONCURSO_CAMPUS_TARONGERS,
 	},
 	nules_offices: {
 		title: 'nules_offices',
 		location: 'Nules (Castellón)',
-		year: 'in_progress',
+		year: '2023',
 		type: 'offices',
-		built: '600 m2',
+		built: '-',
 		collaborator: '',
 		images: OFICINAS_NULES,
 	},
 	perellonet_house: {
 		title: 'perellonet_house',
 		location: 'Perellonet (Valencia)',
-		year: 'in_progress',
+		year: '2022',
 		type: 'residential',
-		built: '600 m2',
+		built: '-',
 		collaborator: '',
 		images: VIVIENDA_PERELLONET,
+	},
+	ebm_house: {
+		title: 'ebm_house',
+		location: 'Jardines del Real (Valencia)',
+		year: '2023',
+		type: 'residential',
+		built: '180 m2',
+		collaborator: '',
+		images: VIVIENDA_EBM,
+	},
+	xabec: {
+		title: 'xabec',
+		location: 'Orriols (Valencia)',
+		year: '2023',
+		type: 'educational',
+		built: '4.000 m2',
+		collaborator: '',
+		images: XABEC,
 	},
 };

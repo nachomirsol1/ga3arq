@@ -244,7 +244,8 @@
 			"religious": "Religious",
 			"offices": "Offices",
 			"leisure": "Leisure",
-			"restoration": "Restoration"
+			"restoration": "Restoration",
+			"educational": "Educational"
 		},
 		"names": {
 			"rsm_house": "RSM House",
@@ -267,7 +268,8 @@
 			"nules_offices": "Nules Offices",
 			"perellonet_house": "Perellonet House",
 			"albalat_cityhall_cantest": "Albalat City Hall Contest",
-			"mueble_valencia": "mueble_valencia"
+			"mueble_valencia": "mueble_valencia",
+			"xabec": "Xabec"
 		}
 	}
 }

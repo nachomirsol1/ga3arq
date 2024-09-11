@@ -250,7 +250,8 @@
 			"religious": "Religioso",
 			"offices": "Oficinas",
 			"leisure": "Ocio",
-			"restoration": "Restauración"
+			"restoration": "Restauración",
+			"educational": "Educativo"
 		},
 		"names": {
 			"rsm_house": "Vivienda RSM",
@@ -273,7 +274,8 @@
 			"nules_offices": "Oficinas Nules",
 			"perellonet_house": "Vivienda Perellonet",
 			"albalat_cityhall_cantest": "Concurso Ayuntamiento Albalat",
-			"mueble_valencia": "mueble_valencia"
+			"mueble_valencia": "mueble_valencia",
+			"xabec": "Xabec"
 		}
 	}
 }
