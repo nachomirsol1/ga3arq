@@ -80,4 +80,5 @@ export const VIVIENDA_CRR = [
 		description: '',
 		linkTo: '',
 	},
+	
 ];

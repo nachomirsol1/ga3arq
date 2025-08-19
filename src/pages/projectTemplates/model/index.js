@@ -17,6 +17,9 @@ import { CONCURSO_CAMPUS_TARONGERS } from './concurso_campus_tarongers';
 import { OFICINAS_NULES } from './oficinas_nules';
 import { VIVIENDA_PERELLONET } from './vivienda_perellonet';
 import { XABEC } from './xabec';
+import { MUEBLE_VALENCIA } from './mueble_valencia';
+import { CONCURSO_AYUNTAMIENTO_ALBALAT } from './concurso_ayuntamiento_albalat';
+import { HOTEL_RESTAURANTE } from './hotel_restaurante';
 
 export const PROJECTS_INFO = {
 	rsm_house: {
@@ -181,6 +184,15 @@ export const PROJECTS_INFO = {
 		collaborator: '',
 		images: VIVIENDA_EBM,
 	},
+	mueble_valencia: {
+		title: 'mueble_valencia',
+		location: 'Valencia',
+		year: '2023',
+		type: 'residential',
+		built: '',
+		collaborator: '',
+		images: MUEBLE_VALENCIA,
+	},
 	xabec: {
 		title: 'xabec',
 		location: 'Orriols (Valencia)',
@@ -189,5 +201,23 @@ export const PROJECTS_INFO = {
 		built: '4.000 m2',
 		collaborator: '',
 		images: XABEC,
+	},
+	albalat_cityhall_contest: {
+		title: 'albalat_cityhall_contest',
+		location: 'Albalat',
+		year: '2023',
+		type: 'competition',
+		built: '',
+		collaborator: '',
+		images: CONCURSO_AYUNTAMIENTO_ALBALAT,
+	},
+	restaurant_hotel: {
+		title: 'restaurant_hotel',
+		location: 'Valencia',
+		year: '',
+		type: 'restoration',
+		built: '',
+		collaborator: '',
+		images: HOTEL_RESTAURANTE,
 	},
 };

@@ -10,4 +10,16 @@ export default defineConfig({
 			src: '/src',
 		},
 	},
+	build: {
+		outdir: 'dist',
+		assetsDir: 'static',
+		sourcemap: false,
+		manifest: true,
+		rollupOptions: {
+			output: {
+				manualChunks: undefined,
+			},
+		},
+	},
+	base: '/',
 });

@@ -158,9 +158,9 @@ export const PROJECTS = [
 		id: 20,
 		path: '',
 		imgUrl: `${CLOUDINARY_IMG_PATH}/v1721906185/Concurso_Ayuntamiento_Albalat/qwzpfjsfbsbycntlkstp.jpg`,
-		label: 'albalat_cityhall_cantest',
+		label: 'albalat_cityhall_contest',
 		description: 'description',
-		linkTo: '/projects/albalat_cityhall_cantest',
+		linkTo: '/projects/albalat_cityhall_contest',
 	},
 	{
 		id: 21,
