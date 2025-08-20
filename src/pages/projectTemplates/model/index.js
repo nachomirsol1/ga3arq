@@ -2,6 +2,7 @@ import { VIVIENDA_RSM } from './vivienda_rsm';
 import { VIVIENDA_FPM } from './vivienda_fpm';
 import { VIVIENDA_VAM } from './vivienda_vam';
 import { VIVIENDA_PBM } from './vivienda_pbm';
+import { VIVIENDA_EBM } from './vivienda_ebm';
 import { VIVIENDA_CRR } from './vivienda_crr';
 import { VIVIENDA_ANR } from './vivienda_anr';
 import { VIVIENDA_BGM } from './vivienda_bgm';
@@ -11,6 +12,14 @@ import { OFICINAS_ALSACARGO } from './oficinas_alsacargo';
 import { IGLESIA_REHABILITACION } from './iglesia_rehabilitacion';
 import { RESTAURANTE_DONMENDO } from './restaurante_donMendo';
 import { CENTRO_OCIO_TORRESPARK } from './centro_ocio_torrepark';
+import { STADLER_TRAINING_CENTER } from './stadler_training_center';
+import { CONCURSO_CAMPUS_TARONGERS } from './concurso_campus_tarongers';
+import { OFICINAS_NULES } from './oficinas_nules';
+import { VIVIENDA_PERELLONET } from './vivienda_perellonet';
+import { XABEC } from './xabec';
+import { MUEBLE_VALENCIA } from './mueble_valencia';
+import { CONCURSO_AYUNTAMIENTO_ALBALAT } from './concurso_ayuntamiento_albalat';
+import { HOTEL_RESTAURANTE } from './hotel_restaurante';
 
 export const PROJECTS_INFO = {
 	rsm_house: {
@@ -129,5 +138,86 @@ export const PROJECTS_INFO = {
 		built: '600 m2',
 		collaborator: '',
 		images: RESTAURANTE_DONMENDO,
+	},
+	stadler_training_center: {
+		title: 'stadler_training_center',
+		location: 'Albuixech (Valencia)',
+		year: '2023',
+		type: 'Industrial',
+		built: '-',
+		collaborator: '',
+		images: STADLER_TRAINING_CENTER,
+	},
+	campus_taronjers_contest: {
+		title: 'campus_taronjers_contest',
+		location: 'UV Valencia',
+		year: 'in_progress',
+		type: 'competition',
+		built: '-',
+		collaborator: '',
+		images: CONCURSO_CAMPUS_TARONGERS,
+	},
+	nules_offices: {
+		title: 'nules_offices',
+		location: 'Nules (Castellón)',
+		year: '2023',
+		type: 'offices',
+		built: '-',
+		collaborator: '',
+		images: OFICINAS_NULES,
+	},
+	perellonet_house: {
+		title: 'perellonet_house',
+		location: 'Perellonet (Valencia)',
+		year: '2022',
+		type: 'residential',
+		built: '-',
+		collaborator: '',
+		images: VIVIENDA_PERELLONET,
+	},
+	ebm_house: {
+		title: 'ebm_house',
+		location: 'Jardines del Real (Valencia)',
+		year: '2023',
+		type: 'residential',
+		built: '180 m2',
+		collaborator: '',
+		images: VIVIENDA_EBM,
+	},
+	mueble_valencia: {
+		title: 'mueble_valencia',
+		location: 'Valencia',
+		year: '2023',
+		type: 'residential',
+		built: '',
+		collaborator: '',
+		images: MUEBLE_VALENCIA,
+	},
+	xabec: {
+		title: 'xabec',
+		location: 'Orriols (Valencia)',
+		year: '2023',
+		type: 'educational',
+		built: '4.000 m2',
+		collaborator: '',
+		images: XABEC,
+	},
+	albalat_cityhall_contest: {
+		title: 'albalat_cityhall_contest',
+		location: 'Albalat',
+		year: '2023',
+		type: 'competition',
+		built: '',
+		collaborator: '',
+		images: CONCURSO_AYUNTAMIENTO_ALBALAT,
+	},
+	restaurant_hotel: {
+		title: 'restaurant_hotel',
+		location: 'Valencia',
+		year: '',
+		type: 'restoration',
+		built: '',
+		collaborator: '',
+		images: HOTEL_RESTAURANTE,
 	},
 };

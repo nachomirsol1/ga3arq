@@ -18,11 +18,10 @@
 		cursor: pointer;
 		@include xs {
 			position: relative;
-			left: 100%;
 		}
 		svg {
-			width: 20px !important;
-			height: 20px !important;
+			width: 35px !important;
+			height: 35px !important;
 		}
 	}
 
